@@ -1,0 +1,39 @@
+li {
+    display: inline-block;
+}
+
+
+nav.Nav{
+    position: absolute;
+    right: 50px;
+    top: 15px;
+}
+
+.HeadInHeader{
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.Tools_Bar_Ul{
+    margin-top: 12px;
+    margin-right: 2px;
+}
+
+li.Tools_Bar{
+    margin-right: 25px;
+}
+
+h2.h2InHeader{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 165px;
+}
+
+p.pInHeader{
+    text-align: center;
+    font-size: 42px;
+    margin-top: -23px;
+}
