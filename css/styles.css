@@ -1,8 +1,25 @@
+*{
+    margin: auto;
+}
+.Header{
+ background-image: url(../img/dark_tint.png),url("../img/2.jpg");   
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
 li {
     display: inline-block;
 }
 
+li>a{
+    text-decoration: none;
+    color: #dddcdc;
+}
 
+a.Tools_Hover:hover{
+    color: snow;
+    transition: color 0.3s ease-in-out;
+}
 nav.Nav{
     position: absolute;
     right: 50px;
@@ -15,25 +32,77 @@ nav.Nav{
     position: relative;
     top: 20px;
     left: 50px;
+    color: #fff;
 }
 
 .Tools_Bar_Ul{
     margin-top: 12px;
     margin-right: 2px;
+    color: #fff;
 }
 
 li.Tools_Bar{
     margin-right: 25px;
 }
 
+.Sing_Up{
+    border-radius: 25px;
+    padding: 11px;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.Gray{
+    background-color: #fff;
+}
+
+.Gray:hover{
+    background-color: aqua;
+}
+
 h2.h2InHeader{
     text-align: center;
     font-size: 70px;
     margin-top: 165px;
+    color: #fff;
+
 }
 
 p.pInHeader{
     text-align: center;
     font-size: 42px;
-    margin-top: -23px;
+    margin-top: 18;
+    color: #fff;
+}
+
+.btn {
+    position: relative;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 31px;
+    color: #fff;
+    padding: 15px 25px;
+    /* margin: 25px; */
+    display: inline-block;
+}
+
+.Blue{
+    background-color: aqua;
+    box-shadow: 0px 5px 0px 4px #3C93D2;
+}
+
+.Blue:hover{
+    background-color: #4b0d0d;
+    font-size: 30px;
+}
+
+#Buttons{
+    padding-top: 50px;
+    text-align: center;
+}
+
+a.bnt{
+    margin-bottom: 250px;
 }
